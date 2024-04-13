@@ -22,7 +22,7 @@ namespace Uppdrag_1___Gissa_Talet
 
                     if (Math.Abs(tal - targetnumber) <= 3)  // räknar ut differensen mellan talen och om den är mindre = 3 då körs denna IF-sats annars går det vidare
                     {
-                        Console.WriteLine("Du har gissat på en för låg siffra");
+                        Console.WriteLine("Du har gissat på en för lågg siffra");
                         Console.WriteLine("Men du är nära nu");
                         str = Console.ReadLine();
                         tal = Convert.ToInt32(str);
